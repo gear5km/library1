@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { NavBarComponent } from '../nav-bar/nav-bar.component';
 @Component({
   selector: 'app-book-list',
@@ -6,15 +6,21 @@ import { NavBarComponent } from '../nav-bar/nav-bar.component';
   styleUrls: ['./book-list.component.css']
 })
 export class BookListComponent implements OnInit {
-  user
+  
+  @Input() public user
+  user2
+  username
   constructor(navBar: NavBarComponent) {
     //this.user = navBar.getUser()
-    this.user = navBar.user1
+    this.user2 = navBar.user1
+    this.username =navBar.getUser()
   }
-  
 
+  
+  
   ngOnInit(): void {
     
   }
 
 }
+

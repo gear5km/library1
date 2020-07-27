@@ -1,3 +1,6 @@
+<!DOCTYPE HTML>
+<html>
+<head></head>
 <body>
   <div class="jumbotron">
     <h3>The Library</h3>
@@ -6,5 +9,7 @@
     <h4>You typed {{userInput.value}} </h4>
     <p>{{user1.name}}</p>
   </div>
+  <app-book-list [user]="user1.name"></app-book-list>
 </body>
 
+</html>
