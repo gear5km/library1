@@ -1,0 +1,10 @@
+<body>
+  <div class="jumbotron">
+    <h3>The Library</h3>
+    <input type="text" [formControl]="userInput" class="form-control" placeholder="Please Enter your name" />
+    <button type="button" class="btn btn-primary" style="margin-top:2%;margin-left:45%;"(click)="onSubmit()">Enter Library</button>
+    <h4>You typed {{userInput.value}} </h4>
+    <p>{{user1.name}}</p>
+  </div>
+</body>
+

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\book-list",
+    "\\src\\app\\nav-bar"
+  ],
+  "SelectedNode": "\\src\\app\\book-list\\book-list.component.ts",
+  "PreviewInSolutionExplorer": false
+}
